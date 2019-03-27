@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sagar Maharjan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+    <!-- HOSTED -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800'
+        rel='stylesheet' type='text/css'>
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+</head>
+
+<body>
+    <div class="overflow-wrap">
+        <!-- HOME -->
+        <section id="home" class="flex height-fix">
+            <div id="pt" class="canvas"></div>
+            <div class="flex">
+
+                <div class="text">
+                    Hello, I'm <span class="highlight">Sagar Maharjan</span>.
+                    <br>
+                    I'm a full-stack web developer.
+                </div>
+
+                <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
+
+                <!-- NAVBAR -->
+                <nav class="flex">
+                    <div class="link-wrap">
+                        <div class="active page-link" dest="home">home</div>
+                        <div class="page-link" dest="about">about</div>
+                        <div class="page-link" dest="portfolio">portfolio</div>
+                        <div class="page-link" dest="contact">contact</div>
+                    </div>
+                    <i class="mdi mdi-menu"></i>
+                </nav>
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container flex">
+
+                <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+                <div class="flex row label-wrap">
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-speedometer"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in">
+                                <div class="label bold">Fast</div>
+                                <div>Fast load times and lag free interaction, my highest priority.</div>
+                            </div>
+                        </div>
+
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-cellphone-link"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                                <div class="label bold">Responsive</div>
+                                <div>My layouts will work on any device, big or small.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-lightbulb-outline"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                                <div class="label bold">Intuitive</div>
+                                <div>Strong preference for easy to use, intuitive UX/UI.</div>
+                            </div>
+                        </div>
+
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-rocket"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                                <div class="label bold">Dynamic</div>
+                                <div>Websites don't have to be static, I love making pages come to life.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-wrapper flex row-gt-sm">
+                    <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                        <img src="img/me.png" class="me">
+                        <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+                        <div class="label bold">Who's this guy?</div>
+                        <div>
+                            Self-taught web developer who is excited about everything that includes
+                            programming and love working with new technology. Driven to be the best at what he does and
+                            wants to work somewhere where he’ll
+                            have opportunities to develop his skills, taking interesting projects, and work with people
+                            he can really learn from.
+                            <br>
+                            <span class="page-link highlight" dest="contact">Let's make something special.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">CSS</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:85%">
+                                <div class="tag bold flex">HTML</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:75%">
+                                <div class="tag bold flex">Python/Django</div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:70%">
+                                <div class="tag bold flex">JavaScript</div>
+                            </div>
+                            <span>70%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:65%">
+                                <div class="tag bold flex">Node.js</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:55%">
+                                <div class="tag bold flex">Angular</div>
+                            </div>
+                            <span>50%</span>
+                        </div>
+
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:73%">
+                                <div class="tag bold flex">SQL/MongoDB</div>
+                            </div>
+                            <span>70%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:55%">
+                                <div class="tag bold flex">Wordpress</div>
+                            </div>
+                            <span>50%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:60%">
+                                <div class="tag bold flex">Photoshop</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:45%">
+                                <div class="tag bold flex">Illustrator</div>
+                            </div>
+                            <span>40%</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="flex" id="portfolio">
+
+            <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+            <div class="filter-wrap waypoint" data-animation="fade-in">
+                <div class="flex row">
+                    <div class="filter" data-filter="all">ALL</div>
+                    <div class="filter" data-filter=".js">JAVASCRIPT</div>
+                    <div class="filter" data-filter=".python">Python/Django</div>
+                    <div class="filter" data-filter=".node">NODE.JS</div>
+                </div>
+                <div class="float-bar">
+                    <div class="flex row">
+                        <div class="filter" data-filter="all">ALL</div>
+                        <div class="filter" data-filter=".js">JAVASCRIPT</div>
+                        <div class="filter" data-filter=".python">PYTHON/DJANGO</div>
+                        <div class="filter" data-filter=".node">NODE.JS</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery" class="container flex row wrap waypoint">
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">MUSIC PLAYER</div>
+                            <span class="highlight">HTML5 + CSS + JS</span>
+                        </div>
+                        <a href="https://tetrachromat.github.io/Responsive_MusicPlayer.github.io/" target="_blank">
+                            <div class="button" id="musicPlayer">VIEW SITE</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mix python" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">SPIRAL</div>
+                            <span class="highlight">Blog and Forum on Django</span>
+                        </div>
+                        <a href="http://tetrachromat.pythonanywhere.com" target="_blank">
+                            <div class="button" id="spiral">VISIT SITE</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">MOVIE SEARCH</div>
+                            <span class="highlight">Movie finder on JS</span>
+                        </div>
+                        <a href="https://github.com/tetrachromat/movieSearch" target="_blank">
+                            <div class="button" id="movieSearch">VISIT SITE</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mix python" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">MALTA ONLINE STORE</div>
+                            <span class="highlight">Tech Store on Django</span>
+                        </div>
+                        <a href="https://malta-online-store.herokuapp.com" target="_blank">
+                            <div class="button" id="malta">VISIT SITE</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mix node" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">BOOKSTORK</div>
+                            <span class="highlight">Book store on Node.js</span>
+                        </div>
+                        <a href="https://bookstork.herokuapp.com" target="_blank">
+                            <div class="button" id="bookstork">VISIT SITE</div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="mix node" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Client Management System</div>
+                            <span class="highlight">CRUD App on Express</span>
+                        </div>
+                        <a href="https://github.com/tetrachromat/expressApp" target="_blank">
+                            <div class="button" id="client">LEARN MORE</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <!-- SVG -->
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+            </svg>
+
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+                <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+                <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want
+                    to work together?</div>
+
+                <!-- Contact-Form -->
+                <main id="contact">
+                    <div class="boxes">
+                        <div>
+                            <a href="https://www.gmail.com" target="_blank"><span class="text-secondary">Email:
+                                    sagarmaharjan31@gmail.com
+                                </span></a>
+                        </div>
+
+                        <div><span class="text-secondary">Phone: (+977) 9803690068 </span></div>
+                        <div>
+                            <span class="text-secondary">Address: Sundhara, Lalitpur , Nepal
+                            </span>
+                        </div>
+                    </div>
+                </main>
+
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+            <div class="icon-wrap flex row">
+                <a href="https://github.com/tetrachromat" target="_blank">
+                    <div class="flex icon" id="icon-2">
+                        <i class="mdi mdi-github-circle"></i>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/maelfiikavrm" target="_blank">
+                    <div class="flex icon" id="icon-3">
+                        <i class="mdi mdi-facebook"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="info-box">
+                <div class="footnote">SAGAR MAHARJAN <span class="highlight">&copy;2018</span></div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="preload">
+        <img src="img/me.png" />
+        <img src="img/thumb-1.jpg" />
+        <img src="img/thumb-2.jpg" />
+        <img src="img/thumb-3.jpg" />
+        <img src="img/thumb-4.jpg" />
+        <img src="img/thumb-5.jpg" />
+        <img src="img/thumb-6.jpg" />
+    </div>
+
+    <!-- LOCAL JS -->
+    <script src="js/pt.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/canvas.js"></script>
+
+</body>
+
+</html>
